@@ -1,0 +1,50 @@
+(2) anastasia@MY-PC:~$ cd
+
+(3) anastasia@MY-PC:~$ pwd
+/home/anastasia
+
+(4) anastasia@MY-PC:~$ mkdir test1
+
+(5) anastasia@MY-PC:~$ cd test1
+
+(6) anastasia@MY-PC:~/test1$ touch 1.txt 2.txt 3.txt
+
+(7) anastasia@MY-PC:~/test1$ ls
+1.txt  2.txt  3.txt
+
+(8) anastasia@MY-PC:~/test1$ cd
+anastasia@MY-PC:~$ cd test1
+anastasia@MY-PC:~/test1$ cd ..
+
+(9) anastasia@MY-PC:~$ mkdir test2
+
+(10) anastasia@MY-PC:~$ rmdir test2
+
+(11) anastasia@MY-PC:~$ rm test1/2.txt
+
+(12) anastasia@MY-PC:~$ cd
+     anastasia@MY-PC:~$ mkdir test3
+     anastasia@MY-PC:~$ touch 4.txt 5.txt
+(13) anastasia@MY-PC:~$ rm -r test3
+(14) anastasia@MY-PC:~$ mkdir test4
+
+(15) anastasia@MY-PC:~$ cd test1
+     anastasia@MY-PC:~/test1$ mv "1.txt" "3.txt" ~/test4
+
+(16)anastasia@MY-PC:~$ cd test4
+    anastasia@MY-PC:~/test4$ echo "The artist drew a perfect line across the canvas, capturing the essence of simplicity" >> 1.txt
+    anastasia@MY-PC:~/test4$ echo "As the train approached, I could see the long line of passengers waiting to board" >> 1.txt
+    anastasia@MY-PC:~/test4$ echo "In the distance, the horizon met the sky in a beautiful line of colors at sunset" >> 1.txt
+
+(17) anastasia@MY-PC:~/test4$ cat 1.txt
+
+(18) anastasia@MY-PC:~/test4$ echo "In the distance, the horizon met the sky in a beautiful line of colors at sunset" >> 3.txt
+     anastasia@MY-PC:~/test4$ echo "As the train approached, I could see the long line of passengers waiting to board" >> 3.txt
+     anastasia@MY-PC:~/test4$ echo "The artist drew a perfect line across the canvas, capturing the essence of simplicity" >> 3.txt
+
+(19) anastasia@MY-PC:~/test4$ cat 1.txt 3.txt
+
+(20) anastasia@MY-PC:~/test4$ echo "line line line 1" > 1.txt
+     anastasia@MY-PC:~/test4$ echo "line line line 2" >> 1.txt
+     anastasia@MY-PC:~/test4$ echo "line line line 3" >> 1.txt
+

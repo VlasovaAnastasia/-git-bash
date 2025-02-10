@@ -1,0 +1,45 @@
+(1) anastasia@MY-PC:~$ touch bash2.txt
+(2) anastasia@MY-PC:~$ cd
+(3) anastasia@MY-PC:~$ mkdir test3
+(4) echo -e "row1\nrow2\nrow3\nrow4" > 4.txt & echo -e "row1\nrow2\nrow3\nrow4" > 5.txt & echo -e "row1\nrow2\nrow3\nrow4" > 6.txt
+
+(5) anastasia@MY-PC:~/test3$ grep -i "row2" 5.txt
+
+(6) anastasia@MY-PC:~$ grep -ir "row" ~/test3
+
+(7) anastasia@MY-PC:~$ cd test3 && grep -ic "row" 6.txt
+4
+
+(8) anastasia@MY-PC:~$ find ~/test3 -name "5*"
+
+(9) anastasia@MY-PC:~$ find ~/test3 -name "5*" -exec rm {} +
+
+(10) anastasia@MY-PC:~$ cd test3 && echo "test" >> 4.txt
+
+(11) anastasia@MY-PC:~/test3$ sed -i 's/test/fail/' 4.txt
+
+(12) anastasia@MY-PC:~/test3$ echo "test" >> 4.txt
+
+(13) anastasia@MY-PC:~$ ps aux
+
+(14) anastasia@MY-PC:~$ kill 666
+bash: kill: (666) - Нет такого процесса
+
+(15)anastasia@MY-PC:~$ ping rusau.net
+
+(16) anastasia@MY-PC:~$ ping -c 5 rusau.net
+
+(17) anastasia@MY-PC:~$ curl https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+
+(18) anastasia@MY-PC:~$ curl -X POST -H "Content-Type: application/json" -d '{
+        "username": "Baby",
+        "firstName": "Lola",
+        "lastName": "Morris",
+        "email": "123qw@lis.ru",
+        "password": "password987",
+        "phone": "8789654522"
+      }' https://petstore.swagger.io/v2/user
+      
+      
+     
+{"code":200,"type":"unknown","message":"9223372036854773583"}
