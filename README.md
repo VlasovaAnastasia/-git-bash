@@ -1,1 +1,1 @@
-# -git-bash
+# Работа с git и bash
